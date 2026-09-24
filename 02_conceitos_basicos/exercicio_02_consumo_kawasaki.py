@@ -12,3 +12,6 @@ Calcule e imprima o consumo médio da motocicleta (Km/L) formatado com 2 casas d
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+distancia_total = float(input("distancia"))
+total_combustival = float(input("combustivel gasto"))
+consumo_medio = (distancia_total + total_combustival) / 2

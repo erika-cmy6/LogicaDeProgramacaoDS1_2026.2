@@ -10,3 +10,9 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+total_consumido= float(input("consumo do restaurate"))
+servico_garcon= total_consumido = 16.40
+total_apagar = total_consumido + servico_garcon
+print(f"o total a ser pago e R${total_apagar:.2f}")
+
+

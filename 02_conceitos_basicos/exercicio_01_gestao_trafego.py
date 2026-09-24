@@ -12,3 +12,6 @@ Calcule e mostre na tela o Custo Por Clique (CPC) médio da campanha formatado e
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valor_investido = float(input("valor investido"))
+totalclicles = float(input("total de clicles"))
+print(f"{valor_investido / totalclicles} R$")
