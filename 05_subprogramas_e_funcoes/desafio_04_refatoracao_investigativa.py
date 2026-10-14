@@ -12,3 +12,13 @@ SUA MISSÃO:
 """
 
 # TODO: Desenvolva as funções modulares abaixo:
+
+def calcularpreco_final (preco_base, taxa_comdesconto,taxa_imp):
+    resultado= preco_base *(1-taxa_comdesconto)*(1+ taxa_imp)
+    return resultado
+
+preco = float(input("digite o preço"))
+txa1 = float(input("dessconto"))
+txa2 = float(input("digite o preço"))
+resultado1= calcularpreco_final(preco, txa1, txa2)
+print(resultado1)
